@@ -17,7 +17,7 @@ closeIconMenuHamburger.addEventListener('click', function () {
 })
 
 
-/* FIRST SOLUTION
+/* FIRST SOLUTION (intervengo sullo style della classe)
 // Dico che quando clicco sull'icona, Hamburger-menu deve essere visibile 
 
 iconMenuHeaderRight.addEventListener('click', function () {
