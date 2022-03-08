@@ -43,3 +43,17 @@ document.querySelector('.fa-times').addEventListener('click', function () {
     document.querySelector('.hamburger-menu').classList.remove('active');
 })
 */
+
+/*
+// FOURTH SOLUTION (utilizzare una variabile in meno)
+const iconMenuHeaderRight = document.querySelector('.fa-bars');
+const closeIconMenuHamburger = document.querySelector('.fa-times');
+
+iconMenuHeaderRight.addEventListener('click', function () {
+    document.querySelector('.hamburger-menu').classList.add('active');
+})
+
+closeIconMenuHamburger.addEventListener('click', function () {
+    document.querySelector('.hamburger-menu').classList.remove('active');
+})
+*/
